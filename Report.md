@@ -55,7 +55,7 @@ The agent is trained with the DDPG algorithm as described in this paper: [Contin
 
 ## Plot of Rewards
 
-![Training](reward.png)
+![Training](rewards.png)
 
 
 ![Score](Plot.png)
