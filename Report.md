@@ -56,6 +56,7 @@ The agent is trained with the DDPG algorithm as described in this paper: [Contin
 ## Plot of Rewards
 
 ![Training](reward.png)
+
 ![Score](Plot.png)
 
 **The objective to get and average score of 30+ achieved as shown in the image.**
