@@ -30,17 +30,17 @@ The agent is trained with the DDPG algorithm as described in this paper: [Contin
 - We have a batch normalization layer after the first layer
 - Output layer is followed by a linear activation unit
 
-### Hyperparameters**
+### Hyperparameters
 
-BUFFER_SIZE = 1e6  # replay buffer size
-BATCH_SIZE = 1024        # minibatch size
-GAMMA = 0.99            # discount factor
-TAU = 1e-3              # for soft update of target parameters
-LR_ACTOR = 1e-4         # learning rate of the actor
-LR_CRITIC = 3e-4        # learning rate of the critic
-WEIGHT_DECAY = 0.0001       # L2 weight decay
-n_episodes=2000         # maximum number of episodes to train
-max_t=5000              # maximum number of steps to train per episode
+* BUFFER_SIZE = 1e6  # replay buffer size
+* BATCH_SIZE = 1024        # minibatch size
+* GAMMA = 0.99            # discount factor
+* TAU = 1e-3              # for soft update of target parameters
+* LR_ACTOR = 1e-4         # learning rate of the actor
+* LR_CRITIC = 3e-4        # learning rate of the critic
+* WEIGHT_DECAY = 0.0001       # L2 weight decay
+* n_episodes=2000         # maximum number of episodes to train
+* max_t=5000              # maximum number of steps to train per episode
 
 
 ## Plot of Rewards
@@ -48,7 +48,7 @@ max_t=5000              # maximum number of steps to train per episode
 ![Training](reward.png)
 ![Score](Plot.png)
 
-** The objective to get and average score of 30+ achieved as shown in the image.
+**The objective to get and average score of 30+ achieved as shown in the image.**
 
 ## Ideas for Future Work
 
