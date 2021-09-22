@@ -7,6 +7,16 @@ This project is part of the [Deep Reinforcement Learning Nanodegree Program](htt
 ## Project's goal
 The goal of this project is to create and train a double-jointed arm agent that is able to maintain its hand in contact with a moving target for as many time steps as possible. The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1. The environment is considered solved if a reward of +100 is obtain for 30 consecutive episodes. The method to use is an actor-critic algorithm, the Deep Deterministic Policy Gradients (DDPG) algorithm.
 
+**Task 1: Solve the First Version**
+
+The task is episodic, and in order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes. 
+
+**Task 2: Solve the Second Version**
+
+The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, the agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).
+
+**In have implemented the Second version of the environment (20 Agents) using DDPG algorithm.**
+
 ## Development
 The agent is trained with the DDPG algorithm as described in this paper: [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971).
 
