@@ -15,7 +15,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, the agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).
 
-**In have implemented the Second version of the environment (20 Agents) using DDPG algorithm.**
+**In have implemented the Task 2 (20 Agents) using DDPG algorithm.**
 
 ## Development
 The agent is trained with the DDPG algorithm as described in this paper: [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971).
