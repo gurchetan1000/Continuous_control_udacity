@@ -57,6 +57,5 @@ The barrier to solving the second version of the environment is slightly differe
 
 ## Solution approach
 
-The notebook `Continuous_Control.ipynb` contains the code which uses a Deep Deterministic Policy Gradient approach with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
+The notebook `Continuous_Control.ipynb` contains the code which uses a Multi Agent Deep Deterministic Policy Gradient approach.
 
-The agent, the deep Q-Network and memory buffer are implemented in the file `ddpg_agent.py`. The deep learning architectures for both actor and critic are defined in `model.py`.
